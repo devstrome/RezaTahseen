@@ -39,6 +39,12 @@ const Projects = () => {
           title="School Website"
           description="This web application is built with Wordpress and School Management System."
         />
+        <ProjectCard
+          src="/btb.png"
+          link="https://baristatrainingbangladesh.vercel.app/"
+          title="Barista Training Bangladesh"
+          description="A professional barista academy offering comprehensive coffee training and certification programs in Bangladesh."
+        />
       </div>
     </div>
   );

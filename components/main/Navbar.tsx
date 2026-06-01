@@ -48,6 +48,14 @@ const Navbar = () => {
           <a href="#projects" className="cursor-pointer">
             Projects
           </a>
+          <a
+            href="/Reza%20Tahseen%27s%20CV.pdf"
+            target="_blank"
+            download
+            className="cursor-pointer text-purple-400 hover:text-purple-300"
+          >
+            Download CV
+          </a>
         </div>
 
         {/* Social Icons */}
@@ -70,6 +78,7 @@ const Navbar = () => {
       {menuOpen && (
         <div className="md:hidden w-full bg-[#24292e] py-10 backdrop-blur-md mt-2">
           <div className="flex flex-col items-center space-y-4 text-white">
+
             <a href="#about-me" onClick={toggleMenu} className="cursor-pointer">
               About me
             </a>
@@ -78,6 +87,15 @@ const Navbar = () => {
             </a>
             <a href="#projects" onClick={toggleMenu} className="cursor-pointer">
               Projects
+            </a>
+            <a
+              href="/Reza%20Tahseen%27s%20CV.pdf"
+              target="_blank"
+              download
+              onClick={toggleMenu}
+              className="cursor-pointer text-purple-400 hover:text-purple-300"
+            >
+              Download CV
             </a>
             {/* Social Icons for Mobile */}
             <div className="flex gap-5 mt-4">
