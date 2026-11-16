@@ -91,6 +91,11 @@ export const Skill_data = [
       src: "/instagram.svg",
       uri:"https://www.instagram.com/reza.tahseen__/profilecard/?igsh=MXU0M3Z3MGFlZGpleA=="
     },
+    {
+      name: "Fiverr",
+      src: "/fiverr.svg",
+      uri: "https://www.fiverr.com/s/50b84gk"
+    },
   ];
   
   
@@ -248,8 +253,3 @@ export const Skill_data = [
       height: 60,
     },
   ];
-  
-  
-  
-  
-  

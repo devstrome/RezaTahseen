@@ -8,6 +8,7 @@ import {
   RxLinkedinLogo,
 } from "react-icons/rx";
 import { FaYoutube } from "react-icons/fa";
+import { SiFiverr } from "react-icons/si";
 
 const Footer = () => {
   return (
@@ -67,6 +68,15 @@ const Footer = () => {
             >
               <RxTwitterLogo />
               <span className="text-[15px] ml-[6px]">Twitter</span>
+            </a>
+            <a
+              href="https://www.fiverr.com/s/50b84gk"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="flex flex-row items-center my-[15px] cursor-pointer"
+            >
+              <SiFiverr />
+              <span className="text-[15px] ml-[6px]">Fiverr</span>
             </a>
             <a
               href="https://www.linkedin.com/in/reza-tahseen-765160299/"
