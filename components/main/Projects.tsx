@@ -16,7 +16,7 @@ const Projects = () => {
           description="This app is built with React Native. React Native is very powerful as it can build cross-platform applications."
         />
         <ProjectCard
-          src="/Barvella products.png"
+          src="/BELORELLA-Premium-Fashion-Beauty-Lifestyle-in-Bangladesh-11-16-2026_05_37_PM.png"
           link="https://frontend-ecommerce-waax.onrender.com/"
           title="E-commerce Website"
           description="This website is built with the MERN stack (MongoDB, Express, React, Node.js) and socket.io. It is a powerful stack for building eCommerce applications."
